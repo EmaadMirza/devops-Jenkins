@@ -1,0 +1,128 @@
+{
+  "_class": "hudson.model.FreeStyleBuild",
+  "actions": [
+    {
+      "_class": "hudson.model.CauseAction",
+      "causes": [
+        {
+          "_class": "hudson.triggers.SCMTrigger$SCMTriggerCause",
+          "shortDescription": "Started by an SCM change"
+        }
+      ]
+    },
+    {},
+    {
+      "_class": "hudson.plugins.git.util.BuildData",
+      "buildsByBranchName": {
+        "refs/remotes/origin/main": {
+          "_class": "hudson.plugins.git.util.Build",
+          "buildNumber": 2,
+          "buildResult": null,
+          "marked": {
+            "SHA1": "ae8df3bc1263d96fb955a07aba5809825158f0be",
+            "branch": [
+              {
+                "SHA1": "ae8df3bc1263d96fb955a07aba5809825158f0be",
+                "name": "refs/remotes/origin/main"
+              }
+            ]
+          },
+          "revision": {
+            "SHA1": "ae8df3bc1263d96fb955a07aba5809825158f0be",
+            "branch": [
+              {
+                "SHA1": "ae8df3bc1263d96fb955a07aba5809825158f0be",
+                "name": "refs/remotes/origin/main"
+              }
+            ]
+          }
+        }
+      },
+      "lastBuiltRevision": {
+        "SHA1": "ae8df3bc1263d96fb955a07aba5809825158f0be",
+        "branch": [
+          {
+            "SHA1": "ae8df3bc1263d96fb955a07aba5809825158f0be",
+            "name": "refs/remotes/origin/main"
+          }
+        ]
+      },
+      "remoteUrls": [
+        "https://github.com/EmaadMirza/devops-Jenkins.git"
+      ],
+      "scmName": ""
+    },
+    {},
+    {
+      "_class": "hudson.tasks.junit.TestResultAction",
+      "failCount": 0,
+      "skipCount": 0,
+      "totalCount": 2,
+      "urlName": "testReport"
+    },
+    {},
+    {},
+    {},
+    {
+      "_class": "org.jenkinsci.plugins.displayurlapi.actions.RunDisplayAction"
+    }
+  ],
+  "artifacts": [
+    {
+      "displayPath": "jenkins-demo-1.0.jar",
+      "fileName": "jenkins-demo-1.0.jar",
+      "relativePath": "target/jenkins-demo-1.0.jar"
+    }
+  ],
+  "building": false,
+  "description": null,
+  "displayName": "#2",
+  "duration": 6479,
+  "estimatedDuration": 8627,
+  "executor": null,
+  "fullDisplayName": "java-maven-freestyle #2",
+  "id": "2",
+  "inProgress": false,
+  "keepLog": false,
+  "number": 2,
+  "queueId": 5,
+  "result": "SUCCESS",
+  "timestamp": 1793638687755,
+  "url": "http://localhost:8080/job/java-maven-freestyle/2/",
+  "builtOn": "",
+  "changeSet": {
+    "_class": "hudson.plugins.git.GitChangeSetList",
+    "items": [
+      {
+        "_class": "hudson.plugins.git.GitChangeSet",
+        "affectedPaths": [
+          "src/main/java/com/demo/Calculator.java"
+        ],
+        "commitId": "ae8df3bc1263d96fb955a07aba5809825158f0be",
+        "timestamp": 1793638635000,
+        "author": {
+          "absoluteUrl": "http://localhost:8080/user/mirzaemaad401",
+          "fullName": "mirzaemaad401"
+        },
+        "authorEmail": "mirzaemaad401@gmail.com",
+        "comment": "Update output message to demonstrate automatic SCM polling\n",
+        "date": "2026-11-02 22:27:15 +0530",
+        "id": "ae8df3bc1263d96fb955a07aba5809825158f0be",
+        "msg": "Update output message to demonstrate automatic SCM polling",
+        "paths": [
+          {
+            "editType": "edit",
+            "file": "src/main/java/com/demo/Calculator.java"
+          }
+        ]
+      }
+    ],
+    "kind": "git"
+  },
+  "culprits": [
+    {
+      "absoluteUrl": "http://localhost:8080/user/mirzaemaad401",
+      "fullName": "mirzaemaad401"
+    }
+  ]
+}

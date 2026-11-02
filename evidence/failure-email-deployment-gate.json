@@ -1,0 +1,14 @@
+{
+  "captured": "2026-11-02T22:37:06.902660+05:30",
+  "failedBuild": 5,
+  "failedCommit": "aa9dea21dc5489501a3b33fda517ba75d750dbcf",
+  "result": "FAILURE",
+  "testCount": 2,
+  "failCount": 1,
+  "archivedArtifacts": [],
+  "downstreamBuildBeforeFailure": 5,
+  "downstreamBuildAfterFailure": 5,
+  "notificationAttemptLogged": true,
+  "smtpErrorInConsole": false,
+  "inboxReceiptIndependentlyVerified": false
+}

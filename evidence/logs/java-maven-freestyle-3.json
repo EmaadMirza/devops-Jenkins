@@ -1,0 +1,121 @@
+{
+  "_class": "hudson.model.FreeStyleBuild",
+  "actions": [
+    {
+      "_class": "hudson.model.CauseAction",
+      "causes": [
+        {
+          "_class": "hudson.triggers.SCMTrigger$SCMTriggerCause",
+          "shortDescription": "Started by an SCM change"
+        }
+      ]
+    },
+    {},
+    {
+      "_class": "hudson.plugins.git.util.BuildData",
+      "buildsByBranchName": {
+        "refs/remotes/origin/main": {
+          "_class": "hudson.plugins.git.util.Build",
+          "buildNumber": 3,
+          "buildResult": null,
+          "marked": {
+            "SHA1": "b26dbb67017276f64060bba0ab02992b0e073f5b",
+            "branch": [
+              {
+                "SHA1": "b26dbb67017276f64060bba0ab02992b0e073f5b",
+                "name": "refs/remotes/origin/main"
+              }
+            ]
+          },
+          "revision": {
+            "SHA1": "b26dbb67017276f64060bba0ab02992b0e073f5b",
+            "branch": [
+              {
+                "SHA1": "b26dbb67017276f64060bba0ab02992b0e073f5b",
+                "name": "refs/remotes/origin/main"
+              }
+            ]
+          }
+        }
+      },
+      "lastBuiltRevision": {
+        "SHA1": "b26dbb67017276f64060bba0ab02992b0e073f5b",
+        "branch": [
+          {
+            "SHA1": "b26dbb67017276f64060bba0ab02992b0e073f5b",
+            "name": "refs/remotes/origin/main"
+          }
+        ]
+      },
+      "remoteUrls": [
+        "https://github.com/EmaadMirza/devops-Jenkins.git"
+      ],
+      "scmName": ""
+    },
+    {},
+    {
+      "_class": "hudson.tasks.junit.TestResultAction",
+      "failCount": 1,
+      "skipCount": 0,
+      "totalCount": 2,
+      "urlName": "testReport"
+    },
+    {},
+    {},
+    {
+      "_class": "org.jenkinsci.plugins.displayurlapi.actions.RunDisplayAction"
+    }
+  ],
+  "artifacts": [],
+  "building": false,
+  "description": null,
+  "displayName": "#3",
+  "duration": 9587,
+  "estimatedDuration": 8947,
+  "executor": null,
+  "fullDisplayName": "java-maven-freestyle #3",
+  "id": "3",
+  "inProgress": false,
+  "keepLog": false,
+  "number": 3,
+  "queueId": 8,
+  "result": "FAILURE",
+  "timestamp": 1793639047799,
+  "url": "http://localhost:8080/job/java-maven-freestyle/3/",
+  "builtOn": "",
+  "changeSet": {
+    "_class": "hudson.plugins.git.GitChangeSetList",
+    "items": [
+      {
+        "_class": "hudson.plugins.git.GitChangeSet",
+        "affectedPaths": [
+          "src/test/java/com/demo/CalculatorTest.java"
+        ],
+        "commitId": "b26dbb67017276f64060bba0ab02992b0e073f5b",
+        "timestamp": 1793638786000,
+        "author": {
+          "absoluteUrl": "http://localhost:8080/user/mirzaemaad401",
+          "fullName": "mirzaemaad401"
+        },
+        "authorEmail": "mirzaemaad401@gmail.com",
+        "comment": "Break test intentionally: expect 6 instead of 5\n",
+        "date": "2026-11-02 22:29:46 +0530",
+        "id": "b26dbb67017276f64060bba0ab02992b0e073f5b",
+        "msg": "Break test intentionally: expect 6 instead of 5",
+        "paths": [
+          {
+            "editType": "edit",
+            "file": "src/test/java/com/demo/CalculatorTest.java"
+          }
+        ]
+      }
+    ],
+    "kind": "git"
+  },
+  "culprits": [
+    {
+      "absoluteUrl": "http://localhost:8080/user/mirzaemaad401",
+      "fullName": "mirzaemaad401"
+    }
+  ]
+}

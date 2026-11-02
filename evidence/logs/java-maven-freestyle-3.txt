@@ -1,0 +1,126 @@
+Started by an SCM change
+Running as SYSTEM
+Building in workspace /home/mirza/jenkins-assignment/.lab/jenkins-home/workspace/java-maven-freestyle
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is disabled by the job configuration...
+[WS-CLEANUP] Done
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/EmaadMirza/devops-Jenkins.git
+ > git init /home/mirza/jenkins-assignment/.lab/jenkins-home/workspace/java-maven-freestyle # timeout=10
+Fetching upstream changes from https://github.com/EmaadMirza/devops-Jenkins.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+ > git fetch --tags --force --progress -- https://github.com/EmaadMirza/devops-Jenkins.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/EmaadMirza/devops-Jenkins.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision b26dbb67017276f64060bba0ab02992b0e073f5b (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f b26dbb67017276f64060bba0ab02992b0e073f5b # timeout=10
+Commit message: "Break test intentionally: expect 6 instead of 5"
+ > git rev-list --no-walk ae8df3bc1263d96fb955a07aba5809825158f0be # timeout=10
+[java-maven-freestyle] $ /home/mirza/jenkins-assignment/.lab/tools/apache-maven-3.9.16/bin/mvn -B -ntp -Dmaven.repo.local=/home/mirza/jenkins-assignment/.lab/m2 clean package
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< com.demo:jenkins-demo >------------------------
+[INFO] Building jenkins-demo 1.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ jenkins-demo ---
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ jenkins-demo ---
+[INFO] skip non existing resourceDirectory /home/mirza/jenkins-assignment/.lab/jenkins-home/workspace/java-maven-freestyle/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ jenkins-demo ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 1 source file with javac [debug release 17] to target/classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ jenkins-demo ---
+[INFO] skip non existing resourceDirectory /home/mirza/jenkins-assignment/.lab/jenkins-home/workspace/java-maven-freestyle/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ jenkins-demo ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [debug release 17] to target/test-classes
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ jenkins-demo ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.demo.CalculatorTest
+[ERROR] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.095 s <<< FAILURE! -- in com.demo.CalculatorTest
+[ERROR] com.demo.CalculatorTest.testAdd -- Time elapsed: 0.051 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <6> but was: <5>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:531)
+	at com.demo.CalculatorTest.testAdd(CalculatorTest.java:9)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   CalculatorTest.testAdd:9 expected: <6> but was: <5>
+[INFO] 
+[ERROR] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.358 s
+[INFO] Finished at: 2026-11-02T22:34:14+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.2.5:test (default-test) on project jenkins-demo: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /home/mirza/jenkins-assignment/.lab/jenkins-home/workspace/java-maven-freestyle/target/surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Build step 'Invoke top-level Maven targets' marked build as failure
+Recording test results
+[Checks API] No suitable checks publisher found.
+Skipped archiving because build is not successful
+Sending e-mails to: [configured-recipient]
+ERROR: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-36a42a504c6sm39461886eec.21 - gsmtp
+
+jakarta.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-36a42a504c6sm39461886eec.21 - gsmtp
+
+	at PluginClassLoader for jakarta-mail-api//org.eclipse.angus.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:954)
+	at PluginClassLoader for jakarta-mail-api//org.eclipse.angus.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:865)
+	at PluginClassLoader for jakarta-mail-api//org.eclipse.angus.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:769)
+	at PluginClassLoader for jakarta-mail-api//jakarta.mail.Service.connect(Service.java:367)
+	at PluginClassLoader for jakarta-mail-api//jakarta.mail.Service.connect(Service.java:225)
+	at PluginClassLoader for jakarta-mail-api//jakarta.mail.Service.connect(Service.java:174)
+	at PluginClassLoader for jakarta-mail-api//jakarta.mail.Transport.send0(Transport.java:232)
+	at PluginClassLoader for jakarta-mail-api//jakarta.mail.Transport.send(Transport.java:102)
+	at PluginClassLoader for mailer//hudson.tasks.MailSender.run(MailSender.java:131)
+	at PluginClassLoader for mailer//hudson.tasks.Mailer.perform(Mailer.java:175)
+	at PluginClassLoader for mailer//hudson.tasks.Mailer.perform(Mailer.java:138)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:817)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:766)
+	at hudson.model.Build$BuildExecution.post2(Build.java:179)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:710)
+	at hudson.model.Run.execute(Run.java:1872)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:456)
+Finished: FAILURE

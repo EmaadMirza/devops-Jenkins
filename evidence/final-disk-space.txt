@@ -1,0 +1,2 @@
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p6   28G   24G  2.7G  90% /

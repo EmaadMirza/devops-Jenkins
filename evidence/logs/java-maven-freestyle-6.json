@@ -1,0 +1,129 @@
+{
+  "_class": "hudson.model.FreeStyleBuild",
+  "actions": [
+    {
+      "_class": "hudson.model.CauseAction",
+      "causes": [
+        {
+          "_class": "hudson.triggers.SCMTrigger$SCMTriggerCause",
+          "shortDescription": "Started by an SCM change"
+        }
+      ]
+    },
+    {},
+    {
+      "_class": "hudson.plugins.git.util.BuildData",
+      "buildsByBranchName": {
+        "refs/remotes/origin/main": {
+          "_class": "hudson.plugins.git.util.Build",
+          "buildNumber": 6,
+          "buildResult": null,
+          "marked": {
+            "SHA1": "2d9206ed3285a82fb1a2346da2dfd818c9cc5187",
+            "branch": [
+              {
+                "SHA1": "2d9206ed3285a82fb1a2346da2dfd818c9cc5187",
+                "name": "refs/remotes/origin/main"
+              }
+            ]
+          },
+          "revision": {
+            "SHA1": "2d9206ed3285a82fb1a2346da2dfd818c9cc5187",
+            "branch": [
+              {
+                "SHA1": "2d9206ed3285a82fb1a2346da2dfd818c9cc5187",
+                "name": "refs/remotes/origin/main"
+              }
+            ]
+          }
+        }
+      },
+      "lastBuiltRevision": {
+        "SHA1": "2d9206ed3285a82fb1a2346da2dfd818c9cc5187",
+        "branch": [
+          {
+            "SHA1": "2d9206ed3285a82fb1a2346da2dfd818c9cc5187",
+            "name": "refs/remotes/origin/main"
+          }
+        ]
+      },
+      "remoteUrls": [
+        "https://github.com/EmaadMirza/devops-Jenkins.git"
+      ],
+      "scmName": ""
+    },
+    {},
+    {
+      "_class": "hudson.tasks.junit.TestResultAction",
+      "failCount": 0,
+      "skipCount": 0,
+      "totalCount": 2,
+      "urlName": "testReport"
+    },
+    {},
+    {},
+    {},
+    {},
+    {
+      "_class": "org.jenkinsci.plugins.displayurlapi.actions.RunDisplayAction"
+    }
+  ],
+  "artifacts": [
+    {
+      "displayPath": "jenkins-demo-1.0.jar",
+      "fileName": "jenkins-demo-1.0.jar",
+      "relativePath": "target/jenkins-demo-1.0.jar"
+    }
+  ],
+  "building": false,
+  "description": null,
+  "displayName": "#6",
+  "duration": 13208,
+  "estimatedDuration": 10772,
+  "executor": null,
+  "fullDisplayName": "java-maven-freestyle #6",
+  "id": "6",
+  "inProgress": false,
+  "keepLog": false,
+  "number": 6,
+  "queueId": 13,
+  "result": "SUCCESS",
+  "timestamp": 1793639287853,
+  "url": "http://localhost:8080/job/java-maven-freestyle/6/",
+  "builtOn": "",
+  "changeSet": {
+    "_class": "hudson.plugins.git.GitChangeSetList",
+    "items": [
+      {
+        "_class": "hudson.plugins.git.GitChangeSet",
+        "affectedPaths": [
+          "src/test/java/com/demo/CalculatorTest.java"
+        ],
+        "commitId": "2d9206ed3285a82fb1a2346da2dfd818c9cc5187",
+        "timestamp": 1793639225000,
+        "author": {
+          "absoluteUrl": "http://localhost:8080/user/mirzaemaad401",
+          "fullName": "mirzaemaad401"
+        },
+        "authorEmail": "mirzaemaad401@gmail.com",
+        "comment": "Recover passing tests and verify back-to-normal notification\n",
+        "date": "2026-11-02 22:37:05 +0530",
+        "id": "2d9206ed3285a82fb1a2346da2dfd818c9cc5187",
+        "msg": "Recover passing tests and verify back-to-normal notification",
+        "paths": [
+          {
+            "editType": "edit",
+            "file": "src/test/java/com/demo/CalculatorTest.java"
+          }
+        ]
+      }
+    ],
+    "kind": "git"
+  },
+  "culprits": [
+    {
+      "absoluteUrl": "http://localhost:8080/user/mirzaemaad401",
+      "fullName": "mirzaemaad401"
+    }
+  ]
+}

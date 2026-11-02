@@ -1,0 +1,122 @@
+{
+  "_class": "hudson.model.FreeStyleBuild",
+  "actions": [
+    {
+      "_class": "hudson.model.CauseAction",
+      "causes": [
+        {
+          "_class": "hudson.triggers.SCMTrigger$SCMTriggerCause",
+          "shortDescription": "Started by an SCM change"
+        }
+      ]
+    },
+    {},
+    {
+      "_class": "hudson.plugins.git.util.BuildData",
+      "buildsByBranchName": {
+        "refs/remotes/origin/main": {
+          "_class": "hudson.plugins.git.util.Build",
+          "buildNumber": 5,
+          "buildResult": null,
+          "marked": {
+            "SHA1": "aa9dea21dc5489501a3b33fda517ba75d750dbcf",
+            "branch": [
+              {
+                "SHA1": "aa9dea21dc5489501a3b33fda517ba75d750dbcf",
+                "name": "refs/remotes/origin/main"
+              }
+            ]
+          },
+          "revision": {
+            "SHA1": "aa9dea21dc5489501a3b33fda517ba75d750dbcf",
+            "branch": [
+              {
+                "SHA1": "aa9dea21dc5489501a3b33fda517ba75d750dbcf",
+                "name": "refs/remotes/origin/main"
+              }
+            ]
+          }
+        }
+      },
+      "lastBuiltRevision": {
+        "SHA1": "aa9dea21dc5489501a3b33fda517ba75d750dbcf",
+        "branch": [
+          {
+            "SHA1": "aa9dea21dc5489501a3b33fda517ba75d750dbcf",
+            "name": "refs/remotes/origin/main"
+          }
+        ]
+      },
+      "remoteUrls": [
+        "https://github.com/EmaadMirza/devops-Jenkins.git"
+      ],
+      "scmName": ""
+    },
+    {},
+    {
+      "_class": "hudson.tasks.junit.TestResultAction",
+      "failCount": 1,
+      "skipCount": 0,
+      "totalCount": 2,
+      "urlName": "testReport"
+    },
+    {},
+    {},
+    {},
+    {
+      "_class": "org.jenkinsci.plugins.displayurlapi.actions.RunDisplayAction"
+    }
+  ],
+  "artifacts": [],
+  "building": false,
+  "description": null,
+  "displayName": "#5",
+  "duration": 11305,
+  "estimatedDuration": 9960,
+  "executor": null,
+  "fullDisplayName": "java-maven-freestyle #5",
+  "id": "5",
+  "inProgress": false,
+  "keepLog": false,
+  "number": 5,
+  "queueId": 12,
+  "result": "FAILURE",
+  "timestamp": 1793639167832,
+  "url": "http://localhost:8080/job/java-maven-freestyle/5/",
+  "builtOn": "",
+  "changeSet": {
+    "_class": "hudson.plugins.git.GitChangeSetList",
+    "items": [
+      {
+        "_class": "hudson.plugins.git.GitChangeSet",
+        "affectedPaths": [
+          "src/test/java/com/demo/CalculatorTest.java"
+        ],
+        "commitId": "aa9dea21dc5489501a3b33fda517ba75d750dbcf",
+        "timestamp": 1793639147000,
+        "author": {
+          "absoluteUrl": "http://localhost:8080/user/mirzaemaad401",
+          "fullName": "mirzaemaad401"
+        },
+        "authorEmail": "mirzaemaad401@gmail.com",
+        "comment": "Exercise failure notification with configured Gmail SMTP\n",
+        "date": "2026-11-02 22:35:47 +0530",
+        "id": "aa9dea21dc5489501a3b33fda517ba75d750dbcf",
+        "msg": "Exercise failure notification with configured Gmail SMTP",
+        "paths": [
+          {
+            "editType": "edit",
+            "file": "src/test/java/com/demo/CalculatorTest.java"
+          }
+        ]
+      }
+    ],
+    "kind": "git"
+  },
+  "culprits": [
+    {
+      "absoluteUrl": "http://localhost:8080/user/mirzaemaad401",
+      "fullName": "mirzaemaad401"
+    }
+  ]
+}

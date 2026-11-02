@@ -1,0 +1,12 @@
+Started on Nov 2, 2026, 10:38:00 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision aa9dea21dc5489501a3b33fda517ba75d750dbcf (refs/remotes/origin/main)
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+ > git ls-remote -h -- https://github.com/EmaadMirza/devops-Jenkins.git # timeout=10
+Found 1 remote heads on https://github.com/EmaadMirza/devops-Jenkins.git
+[poll] Latest remote head revision on refs/heads/main is: 2d9206ed3285a82fb1a2346da2dfd818c9cc5187
+Done. Took 0.88 sec
+Changes found

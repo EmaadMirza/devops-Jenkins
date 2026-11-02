@@ -1,0 +1,65 @@
+{
+  "_class": "hudson.model.FreeStyleBuild",
+  "actions": [
+    {
+      "_class": "hudson.model.CauseAction",
+      "causes": [
+        {
+          "_class": "hudson.model.Cause$UpstreamCause",
+          "shortDescription": "Started by upstream project \"java-maven-freestyle\" build number 1",
+          "upstreamBuild": 1,
+          "upstreamProject": "java-maven-freestyle",
+          "upstreamUrl": "job/java-maven-freestyle/"
+        }
+      ]
+    },
+    {
+      "_class": "hudson.model.ParametersAction",
+      "parameters": [
+        {
+          "_class": "hudson.model.StringParameterValue",
+          "name": "ENV",
+          "value": "dev"
+        },
+        {
+          "_class": "hudson.model.BooleanParameterValue",
+          "name": "RUN_SMOKE_TEST",
+          "value": true
+        },
+        {
+          "_class": "hudson.model.StringParameterValue",
+          "name": "VERSION",
+          "value": "1.0"
+        }
+      ]
+    },
+    {},
+    {},
+    {
+      "_class": "org.jenkinsci.plugins.displayurlapi.actions.RunDisplayAction"
+    }
+  ],
+  "artifacts": [],
+  "building": false,
+  "description": null,
+  "displayName": "#1",
+  "duration": 3059,
+  "estimatedDuration": 3059,
+  "executor": null,
+  "fullDisplayName": "deploy-job #1",
+  "id": "1",
+  "inProgress": false,
+  "keepLog": false,
+  "number": 1,
+  "queueId": 3,
+  "result": "SUCCESS",
+  "timestamp": 1793638552734,
+  "url": "http://localhost:8080/job/deploy-job/1/",
+  "builtOn": "",
+  "changeSet": {
+    "_class": "hudson.scm.EmptyChangeLogSet",
+    "items": [],
+    "kind": null
+  },
+  "culprits": []
+}

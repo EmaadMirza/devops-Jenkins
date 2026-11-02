@@ -1,0 +1,61 @@
+{
+  "_class": "hudson.tasks.junit.TestResult",
+  "testActions": [],
+  "duration": 0.095,
+  "empty": false,
+  "failCount": 1,
+  "passCount": 1,
+  "skipCount": 0,
+  "suites": [
+    {
+      "cases": [
+        {
+          "testActions": [],
+          "age": 1,
+          "className": "com.demo.CalculatorTest",
+          "duration": 0.051,
+          "errorDetails": "expected: <6> but was: <5>",
+          "errorStackTrace": "org.opentest4j.AssertionFailedError: expected: <6> but was: <5>\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)\n\tat org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)\n\tat org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:531)\n\tat com.demo.CalculatorTest.testAdd(CalculatorTest.java:9)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)\n",
+          "failedSince": 3,
+          "flakyFailures": [],
+          "name": "testAdd",
+          "properties": {},
+          "rerunFailures": [],
+          "skipped": false,
+          "skippedMessage": null,
+          "status": "FAILED",
+          "stderr": null,
+          "stdout": null
+        },
+        {
+          "testActions": [],
+          "age": 0,
+          "className": "com.demo.CalculatorTest",
+          "duration": 0.004,
+          "errorDetails": null,
+          "errorStackTrace": null,
+          "failedSince": 0,
+          "flakyFailures": [],
+          "name": "testSubtract",
+          "properties": {},
+          "rerunFailures": [],
+          "skipped": false,
+          "skippedMessage": null,
+          "status": "PASSED",
+          "stderr": null,
+          "stdout": null
+        }
+      ],
+      "duration": 0.095,
+      "enclosingBlockNames": [],
+      "enclosingBlocks": [],
+      "id": null,
+      "name": "com.demo.CalculatorTest",
+      "nodeId": null,
+      "properties": {},
+      "stderr": null,
+      "stdout": null,
+      "timestamp": null
+    }
+  ]
+}

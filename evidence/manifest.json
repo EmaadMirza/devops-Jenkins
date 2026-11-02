@@ -1,0 +1,312 @@
+[
+  {
+    "path": "evidence/README.md",
+    "bytes": 6516,
+    "sha256": "73fc3f7ede52ac9121857308a608a2a9039ae369ab64e29e6fbadc530d060b6d"
+  },
+  {
+    "path": "evidence/artifacts/SHA256SUMS",
+    "bytes": 87,
+    "sha256": "a1ba94003dc075642d4095c7b85c4d7a878ecfc17d0c03cf94f552e2365983d0"
+  },
+  {
+    "path": "evidence/artifacts/jenkins-demo-1.0.jar",
+    "bytes": 2511,
+    "sha256": "98369b68b30e240f55c0d03db36a21e1e261a291a9fec2bf0d219fb34e4fc4ad"
+  },
+  {
+    "path": "evidence/artifacts/recovery-build-6/SHA256SUMS",
+    "bytes": 87,
+    "sha256": "5295b0e012beba53c10690c50d831fecbe320a82297cedf735ecc131fc974793"
+  },
+  {
+    "path": "evidence/artifacts/recovery-build-6/jenkins-demo-1.0.jar",
+    "bytes": 2517,
+    "sha256": "618f5482a10e25a45625ecdf5ccf4cefc1f3e06399dfbb449945a2578fd6a974"
+  },
+  {
+    "path": "evidence/environment.txt",
+    "bytes": 3614,
+    "sha256": "c6ba10bc713e7df76e54e2948e265c186ada544b4691db61f0cf4017a19f1077"
+  },
+  {
+    "path": "evidence/failing-test-results.json",
+    "bytes": 2333,
+    "sha256": "c28af29563b42a9cde1b0b86dd6b0437db3c91262e2682c6cb6ce62f8dd46d7c"
+  },
+  {
+    "path": "evidence/failure-deployment-gate.json",
+    "bytes": 324,
+    "sha256": "8235e34fd233b81165ef1ffbbc306724378574ea2421543d3e4249940535fd2a"
+  },
+  {
+    "path": "evidence/failure-email-deployment-gate.json",
+    "bytes": 408,
+    "sha256": "99a9e34d37c11f0bf6c3564506841fb228f59b7fe352c1f047f2deb56884a4bd"
+  },
+  {
+    "path": "evidence/failure-email-test-results.json",
+    "bytes": 2331,
+    "sha256": "767f3f1b9d5b26fa6a44d518a5249c85d3245139b93b3b516cfca09a81c2aa44"
+  },
+  {
+    "path": "evidence/final-disk-space.txt",
+    "bytes": 89,
+    "sha256": "dee4cdb2e10a10d74d7e24012f37dc156aa93e1818126b212429fb9050883954"
+  },
+  {
+    "path": "evidence/initial-test-results.json",
+    "bytes": 1494,
+    "sha256": "14131ec473dd5d4b2b0a06666b7f2a828ede7de24beefda5e3eb79c1d26a3711"
+  },
+  {
+    "path": "evidence/logs/deploy-job-1.json",
+    "bytes": 1580,
+    "sha256": "9bc9c3fac546f7f954b1d498128a420fb48c504e0b05405ac092df48ae05710f"
+  },
+  {
+    "path": "evidence/logs/deploy-job-1.txt",
+    "bytes": 625,
+    "sha256": "01d81747638cc2ee721bb1516b5de727b60a1595216b6e1fa23538f4d0918605"
+  },
+  {
+    "path": "evidence/logs/deploy-job-2.json",
+    "bytes": 1471,
+    "sha256": "e27ed8b46a6f998916c4a5336a298b647278561dfc5a89353572644a46b3aff7"
+  },
+  {
+    "path": "evidence/logs/deploy-job-2.txt",
+    "bytes": 552,
+    "sha256": "1a56a05ad231189d9c50341d4dacd3ca51eca39f5e197c686450692e1b079034"
+  },
+  {
+    "path": "evidence/logs/deploy-job-3.json",
+    "bytes": 1580,
+    "sha256": "4a75ea9ba9dce247812ac2aead1af38e1494976706e59901059a0b88383b0a2a"
+  },
+  {
+    "path": "evidence/logs/deploy-job-3.txt",
+    "bytes": 625,
+    "sha256": "cb352c504f31255cd9cd5ebb18e8de5e9645e38d61de5c37a72b1d325881398b"
+  },
+  {
+    "path": "evidence/logs/deploy-job-4.json",
+    "bytes": 1469,
+    "sha256": "104c8939f91cf1348d5658ba064286b52fbd7daf37744d564d098384ef902c4f"
+  },
+  {
+    "path": "evidence/logs/deploy-job-4.txt",
+    "bytes": 529,
+    "sha256": "72f652ba61edbb7d3c8c5a9483c244a5fff1ce8991f03aa11e6437c079c1d299"
+  },
+  {
+    "path": "evidence/logs/deploy-job-5.json",
+    "bytes": 1581,
+    "sha256": "53bfbecd01d80930f5a2d1f856ddf9b654f846db7b04d091de6eb88fbf8dcdae"
+  },
+  {
+    "path": "evidence/logs/deploy-job-5.txt",
+    "bytes": 624,
+    "sha256": "99a30d681e6b118ee0e396940c0a24412d7be8ecc94b2d6624d459a2ce0abfad"
+  },
+  {
+    "path": "evidence/logs/deploy-job-6.json",
+    "bytes": 1581,
+    "sha256": "8760af78ed96ef23fb30ca15d760f2e1ab5a4616669fbc50d343ca5e395c65cf"
+  },
+  {
+    "path": "evidence/logs/deploy-job-6.txt",
+    "bytes": 624,
+    "sha256": "cb3ead3e7325d563177a9ed0e925e9ed9e5238735ee1a12b59388b8b45481680"
+  },
+  {
+    "path": "evidence/logs/hello-world-job-1.json",
+    "bytes": 985,
+    "sha256": "18fb6bd258e066848eff8c984d92b39ec1dc3234d5bb24bd5b31f6beebb392f5"
+  },
+  {
+    "path": "evidence/logs/hello-world-job-1.txt",
+    "bytes": 493,
+    "sha256": "5b99aa1c0f0bfca594af8cdc74d153867e979a91c0c6a83e5f21dd7bae8d84da"
+  },
+  {
+    "path": "evidence/logs/hello-world-job-2.json",
+    "bytes": 983,
+    "sha256": "e6fe701039e5b871c03003a9a6b11358115b2a731b50731f0eb688e33f9f9a3c"
+  },
+  {
+    "path": "evidence/logs/hello-world-job-2.txt",
+    "bytes": 494,
+    "sha256": "daa3b313048f53f2466cde186f0c4a74a012035b6e476166bc8585a2500d0dbd"
+  },
+  {
+    "path": "evidence/logs/java-maven-freestyle-1.json",
+    "bytes": 2557,
+    "sha256": "1f9719213145c974a13dc9ea5a3da8396caa96a708e91a1fbbaecafb9a383827"
+  },
+  {
+    "path": "evidence/logs/java-maven-freestyle-1.txt",
+    "bytes": 4511,
+    "sha256": "615ab130baba3b90e49dca53a8e57b5d38d5ad7057b0abe0989851f11def40fe"
+  },
+  {
+    "path": "evidence/logs/java-maven-freestyle-2.json",
+    "bytes": 3480,
+    "sha256": "67fec78c11e882a347179f0b53b94939b269381f1c124478cc5e2c9471ad2203"
+  },
+  {
+    "path": "evidence/logs/java-maven-freestyle-2.txt",
+    "bytes": 4584,
+    "sha256": "6def427b788f1b3dca11009f6912a311112da4d0c0f64fc181ce1f5ec0aa1633"
+  },
+  {
+    "path": "evidence/logs/java-maven-freestyle-3.json",
+    "bytes": 3304,
+    "sha256": "bb854f3a1c45d4b05fdf394fbe1f4633ce0f42b46050d0e344392f2e0e396c3f"
+  },
+  {
+    "path": "evidence/logs/java-maven-freestyle-3.txt",
+    "bytes": 7951,
+    "sha256": "239315216de7848c3abead6db5c5d5b5e6602412b081dee1a15fb2d3013b7729"
+  },
+  {
+    "path": "evidence/logs/java-maven-freestyle-4.json",
+    "bytes": 3474,
+    "sha256": "7d8549ed36d470671e7abb35d9c4462bc8146315c35cf2def34ab45888010697"
+  },
+  {
+    "path": "evidence/logs/java-maven-freestyle-4.txt",
+    "bytes": 4616,
+    "sha256": "bfd6ccf8481d68b7b79cf4be24238974eeb6b0e760021725e4ed50678e139211"
+  },
+  {
+    "path": "evidence/logs/java-maven-freestyle-5.json",
+    "bytes": 3332,
+    "sha256": "0767b9b27285d966b679a3f52c2306cd1fb64e0fffef71d5af20ce76c113148b"
+  },
+  {
+    "path": "evidence/logs/java-maven-freestyle-5.txt",
+    "bytes": 5829,
+    "sha256": "602431fa9075fe5b7cf85c0d3ea7eab111a609717b139155874db379b0b3f15a"
+  },
+  {
+    "path": "evidence/logs/java-maven-freestyle-6.json",
+    "bytes": 3503,
+    "sha256": "089282301e769ed55eef82af97e69c2f18e43f36f3379c61b1573f31143e3f61"
+  },
+  {
+    "path": "evidence/logs/java-maven-freestyle-6.txt",
+    "bytes": 4628,
+    "sha256": "519e0f3ddf3e168bddd0c8c4d691e56bd8d01222524903c87b6ec51ec8ec35ff"
+  },
+  {
+    "path": "evidence/notification-verification.json",
+    "bytes": 1229,
+    "sha256": "28cb0407b79a8d1124a2b220d45fd239d97664b5a3654b8ec8cda17979a16713"
+  },
+  {
+    "path": "evidence/recovery-test-results.json",
+    "bytes": 1495,
+    "sha256": "14fcd9ba8175c2743fd74a8e32c0dc0ec6e09ee00467c950a4a254d0fcc86acd"
+  },
+  {
+    "path": "evidence/scm-polling-failure.txt",
+    "bytes": 587,
+    "sha256": "d686e9cef9e33b1d62129da4838d8980258542e2812da5dde655645c33509139"
+  },
+  {
+    "path": "evidence/scm-polling-recovery.txt",
+    "bytes": 587,
+    "sha256": "83f8356c799cc7c9051b3c86b3face9be88b235e54fe506a9d4c1fd807251269"
+  },
+  {
+    "path": "evidence/scm-polling.txt",
+    "bytes": 587,
+    "sha256": "df3c04d341f952e7772cacfcf4da8bab5a2f7d1a3865c20c76e3946aacf4a9ad"
+  },
+  {
+    "path": "evidence/screenshots/00-jenkins-start.png",
+    "bytes": 48341,
+    "sha256": "577e8a21f1071d1fee9ac1c9151b27be3309b388320d6ad19c0ac50b4b5e40d4"
+  },
+  {
+    "path": "evidence/screenshots/01-hello-world.png",
+    "bytes": 86067,
+    "sha256": "796582d72f2607e4f4eb2307eb735ea95274059f9bfe02e2e8bcea4ad591f673"
+  },
+  {
+    "path": "evidence/screenshots/02-maven-build-success.png",
+    "bytes": 82828,
+    "sha256": "ef919c5a0e9a249c83c7e8a3cc9d4b00f395d71f2c4fc63c40a167e419cb237f"
+  },
+  {
+    "path": "evidence/screenshots/03-junit-two-passing-tests.png",
+    "bytes": 65869,
+    "sha256": "79392e2c19e63757099dbd8db18ed9ba4169c455274877fe6eece91684bbf280"
+  },
+  {
+    "path": "evidence/screenshots/04-automatic-scm-build.png",
+    "bytes": 96543,
+    "sha256": "a25376f43b83c3523f3b5b22c1b810eab4b03f7d0952b10d4ead4a5192aaeb0e"
+  },
+  {
+    "path": "evidence/screenshots/05-staging-deployment.png",
+    "bytes": 88614,
+    "sha256": "c3f8295a0157895b83747b64ec08af2a3005df563377782023298660d75d68b3"
+  },
+  {
+    "path": "evidence/screenshots/06-upstream-deployment.png",
+    "bytes": 60650,
+    "sha256": "5937179f1699d9f644330d27a30b0dc5ed97dbd22db5ce0e723926ba85bcfa4b"
+  },
+  {
+    "path": "evidence/screenshots/07-prod-without-smoke-tests.png",
+    "bytes": 86603,
+    "sha256": "8c2cd9e2ee79c6226a08c75d37d7b00a9a7a2b5de6ba9e934c6a6dcbeeb56ad0"
+  },
+  {
+    "path": "evidence/screenshots/08-intentional-test-failure.png",
+    "bytes": 152013,
+    "sha256": "66873e15ad0a506522e04e229aca1c9d2bab0b090fbfba6dd2e954c80a250f0f"
+  },
+  {
+    "path": "evidence/screenshots/09-failure-build-no-artifact.png",
+    "bytes": 86469,
+    "sha256": "0df82aa85dcf59072ccd02347af41d195f61048540a262e66cfc6c4928508faa"
+  },
+  {
+    "path": "evidence/screenshots/10-notification-failure-tests.png",
+    "bytes": 67831,
+    "sha256": "1287c66a036b902016a2e261a84ccd277c484543bcc436d658a03ae3e4a571b2"
+  },
+  {
+    "path": "evidence/screenshots/11-recovery-success.png",
+    "bytes": 96688,
+    "sha256": "c4a1c3a366e5326d4b22dc3acef11e3eadd7a2bdb04a7ae369227167a5ad3782"
+  },
+  {
+    "path": "evidence/screenshots/12-recovery-tests.png",
+    "bytes": 70066,
+    "sha256": "7fa35d56f93908246284a8e20cfc509fe1213904f1766c3bdcbb330be175e759"
+  },
+  {
+    "path": "evidence/screenshots/13-final-dashboard.png",
+    "bytes": 75984,
+    "sha256": "602bd459cf712a3148cc2bff6521f51bbe7eb56db37190775ed4334807a36dac"
+  },
+  {
+    "path": "evidence/screenshots/14-deployment-parameters.png",
+    "bytes": 54604,
+    "sha256": "aa7afe261394a5f443059af1d44a3d86a39cc384c771c0a18813adc74c474262"
+  },
+  {
+    "path": "evidence/source-instructions.txt",
+    "bytes": 206,
+    "sha256": "42b574854942012717b6caf6ac7481631c535190710e95da57f3e026f58ae6c9"
+  },
+  {
+    "path": "evidence/verification.json",
+    "bytes": 666,
+    "sha256": "63b8469ee4a7083f19abffa95e60f18ce48d083999c938c85df49ada2ec55b62"
+  }
+]

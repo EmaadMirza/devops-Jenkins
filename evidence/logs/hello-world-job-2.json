@@ -1,0 +1,44 @@
+{
+  "_class": "hudson.model.FreeStyleBuild",
+  "actions": [
+    {
+      "_class": "hudson.model.CauseAction",
+      "causes": [
+        {
+          "_class": "hudson.model.Cause$UserIdCause",
+          "shortDescription": "Started by user lab-admin",
+          "userId": "lab-admin",
+          "userName": "lab-admin"
+        }
+      ]
+    },
+    {},
+    {},
+    {
+      "_class": "org.jenkinsci.plugins.displayurlapi.actions.RunDisplayAction"
+    }
+  ],
+  "artifacts": [],
+  "building": false,
+  "description": null,
+  "displayName": "#2",
+  "duration": 46,
+  "estimatedDuration": 80,
+  "executor": null,
+  "fullDisplayName": "hello-world-job #2",
+  "id": "2",
+  "inProgress": false,
+  "keepLog": false,
+  "number": 2,
+  "queueId": 9,
+  "result": "SUCCESS",
+  "timestamp": 1793639097809,
+  "url": "http://localhost:8080/job/hello-world-job/2/",
+  "builtOn": "",
+  "changeSet": {
+    "_class": "hudson.scm.EmptyChangeLogSet",
+    "items": [],
+    "kind": null
+  },
+  "culprits": []
+}

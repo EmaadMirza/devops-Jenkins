@@ -1,0 +1,12 @@
+Started by user lab-admin
+Running as SYSTEM
+Building in workspace /home/mirza/jenkins-assignment/.lab/jenkins-home/workspace/deploy-job
+[deploy-job] $ /bin/sh /tmp/jenkins1537931009275396677.sh
+==============================================
+ Deploying version 1.0 to prod (SIMULATION)
+==============================================
+WARNING: Production deployment simulation
+Simulating copying application to prod server...
+Deployment to prod completed (simulation; no remote server changed)
+Smoke tests skipped
+Finished: SUCCESS

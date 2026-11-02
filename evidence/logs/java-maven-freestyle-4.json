@@ -1,0 +1,129 @@
+{
+  "_class": "hudson.model.FreeStyleBuild",
+  "actions": [
+    {
+      "_class": "hudson.model.CauseAction",
+      "causes": [
+        {
+          "_class": "hudson.triggers.SCMTrigger$SCMTriggerCause",
+          "shortDescription": "Started by an SCM change"
+        }
+      ]
+    },
+    {},
+    {
+      "_class": "hudson.plugins.git.util.BuildData",
+      "buildsByBranchName": {
+        "refs/remotes/origin/main": {
+          "_class": "hudson.plugins.git.util.Build",
+          "buildNumber": 4,
+          "buildResult": null,
+          "marked": {
+            "SHA1": "e52b24e992c95e8e09f3ab5dc44ef76ef893caf6",
+            "branch": [
+              {
+                "SHA1": "e52b24e992c95e8e09f3ab5dc44ef76ef893caf6",
+                "name": "refs/remotes/origin/main"
+              }
+            ]
+          },
+          "revision": {
+            "SHA1": "e52b24e992c95e8e09f3ab5dc44ef76ef893caf6",
+            "branch": [
+              {
+                "SHA1": "e52b24e992c95e8e09f3ab5dc44ef76ef893caf6",
+                "name": "refs/remotes/origin/main"
+              }
+            ]
+          }
+        }
+      },
+      "lastBuiltRevision": {
+        "SHA1": "e52b24e992c95e8e09f3ab5dc44ef76ef893caf6",
+        "branch": [
+          {
+            "SHA1": "e52b24e992c95e8e09f3ab5dc44ef76ef893caf6",
+            "name": "refs/remotes/origin/main"
+          }
+        ]
+      },
+      "remoteUrls": [
+        "https://github.com/EmaadMirza/devops-Jenkins.git"
+      ],
+      "scmName": ""
+    },
+    {},
+    {
+      "_class": "hudson.tasks.junit.TestResultAction",
+      "failCount": 0,
+      "skipCount": 0,
+      "totalCount": 2,
+      "urlName": "testReport"
+    },
+    {},
+    {},
+    {},
+    {},
+    {
+      "_class": "org.jenkinsci.plugins.displayurlapi.actions.RunDisplayAction"
+    }
+  ],
+  "artifacts": [
+    {
+      "displayPath": "jenkins-demo-1.0.jar",
+      "fileName": "jenkins-demo-1.0.jar",
+      "relativePath": "target/jenkins-demo-1.0.jar"
+    }
+  ],
+  "building": false,
+  "description": null,
+  "displayName": "#4",
+  "duration": 12628,
+  "estimatedDuration": 9960,
+  "executor": null,
+  "fullDisplayName": "java-maven-freestyle #4",
+  "id": "4",
+  "inProgress": false,
+  "keepLog": false,
+  "number": 4,
+  "queueId": 10,
+  "result": "SUCCESS",
+  "timestamp": 1793639107814,
+  "url": "http://localhost:8080/job/java-maven-freestyle/4/",
+  "builtOn": "",
+  "changeSet": {
+    "_class": "hudson.plugins.git.GitChangeSetList",
+    "items": [
+      {
+        "_class": "hudson.plugins.git.GitChangeSet",
+        "affectedPaths": [
+          "src/test/java/com/demo/CalculatorTest.java"
+        ],
+        "commitId": "e52b24e992c95e8e09f3ab5dc44ef76ef893caf6",
+        "timestamp": 1793639084000,
+        "author": {
+          "absoluteUrl": "http://localhost:8080/user/mirzaemaad401",
+          "fullName": "mirzaemaad401"
+        },
+        "authorEmail": "mirzaemaad401@gmail.com",
+        "comment": "Fix test: restore correct addition expectation\n",
+        "date": "2026-11-02 22:34:44 +0530",
+        "id": "e52b24e992c95e8e09f3ab5dc44ef76ef893caf6",
+        "msg": "Fix test: restore correct addition expectation",
+        "paths": [
+          {
+            "editType": "edit",
+            "file": "src/test/java/com/demo/CalculatorTest.java"
+          }
+        ]
+      }
+    ],
+    "kind": "git"
+  },
+  "culprits": [
+    {
+      "absoluteUrl": "http://localhost:8080/user/mirzaemaad401",
+      "fullName": "mirzaemaad401"
+    }
+  ]
+}

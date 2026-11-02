@@ -1,0 +1,5 @@
+Assignment source: Jenkins.pdf
+Pages: 23
+SHA-256: 1f5f6dab9db27c9c815f04114bf2b630bee062bc92c8bbe568a0a3b9aeba08ec
+Read from the Windows data partition mounted read-only.
+The PDF itself is not republished.

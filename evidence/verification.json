@@ -1,0 +1,18 @@
+{
+  "helloWorldSuccessful": true,
+  "calculatorTwoTestsPassed": true,
+  "jarArchivedAndExecuted": true,
+  "automaticScmBuildVerified": true,
+  "intentionalFailureVerified": true,
+  "failedBuildHasNoArtifactOrDeployment": true,
+  "parameterizedStagingAndProdSimulationsVerified": true,
+  "recoveryTriggeredDeployment": true,
+  "failureAndRecoveryMailSentWithoutSmtpException": true,
+  "emailInboxReceiptIndependentlyVerified": false,
+  "finalPollingSchedule": "H/5 * * * *",
+  "jenkinsVersion": "2.580.2",
+  "mavenVersion": "3.9.16",
+  "finalDemonstratedCalculatorBuild": 6,
+  "finalDemonstratedDeploymentBuild": 6,
+  "captured": "2026-11-02T22:41:04.369613+05:30"
+}

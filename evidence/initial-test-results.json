@@ -1,0 +1,61 @@
+{
+  "_class": "hudson.tasks.junit.TestResult",
+  "testActions": [],
+  "duration": 0.081,
+  "empty": false,
+  "failCount": 0,
+  "passCount": 2,
+  "skipCount": 0,
+  "suites": [
+    {
+      "cases": [
+        {
+          "testActions": [],
+          "age": 0,
+          "className": "com.demo.CalculatorTest",
+          "duration": 0.042,
+          "errorDetails": null,
+          "errorStackTrace": null,
+          "failedSince": 0,
+          "flakyFailures": [],
+          "name": "testAdd",
+          "properties": {},
+          "rerunFailures": [],
+          "skipped": false,
+          "skippedMessage": null,
+          "status": "PASSED",
+          "stderr": null,
+          "stdout": null
+        },
+        {
+          "testActions": [],
+          "age": 0,
+          "className": "com.demo.CalculatorTest",
+          "duration": 0.002,
+          "errorDetails": null,
+          "errorStackTrace": null,
+          "failedSince": 0,
+          "flakyFailures": [],
+          "name": "testSubtract",
+          "properties": {},
+          "rerunFailures": [],
+          "skipped": false,
+          "skippedMessage": null,
+          "status": "PASSED",
+          "stderr": null,
+          "stdout": null
+        }
+      ],
+      "duration": 0.081,
+      "enclosingBlockNames": [],
+      "enclosingBlocks": [],
+      "id": null,
+      "name": "com.demo.CalculatorTest",
+      "nodeId": null,
+      "properties": {},
+      "stderr": null,
+      "stdout": null,
+      "timestamp": null
+    }
+  ]
+}

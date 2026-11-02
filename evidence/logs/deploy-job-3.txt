@@ -1,0 +1,14 @@
+Started by upstream project "java-maven-freestyle" build number 2
+originally caused by:
+ Started by an SCM change
+Running as SYSTEM
+Building in workspace /home/mirza/jenkins-assignment/.lab/jenkins-home/workspace/deploy-job
+[deploy-job] $ /bin/sh /tmp/jenkins14410336177804760645.sh
+==============================================
+ Deploying version 1.0 to dev (SIMULATION)
+==============================================
+Simulating copying application to dev server...
+Deployment to dev completed (simulation; no remote server changed)
+Running simulated smoke tests on dev...
+Smoke tests passed (simulation)
+Finished: SUCCESS

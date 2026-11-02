@@ -1,0 +1,44 @@
+{
+  "captured": "2026-11-02T22:39:30.867120+05:30",
+  "smtpConfigurationTest": "accepted; confirmed by user and a live Jenkins SMTP diagnostic",
+  "smtpHost": "smtp.gmail.com",
+  "smtpPort": 465,
+  "ssl": true,
+  "passwordEnteredLocally": true,
+  "passwordPublished": false,
+  "inboxReceiptIndependentlyVerified": false,
+  "attempts": [
+    {
+      "job": "java-maven-freestyle",
+      "build": 3,
+      "notification": "failure",
+      "sendingEmailLogged": true,
+      "smtpAuthenticationError": true,
+      "result": "rejected by Gmail"
+    },
+    {
+      "job": "java-maven-freestyle",
+      "build": 4,
+      "notification": "back-to-normal",
+      "sendingEmailLogged": true,
+      "smtpAuthenticationError": false,
+      "result": "sent without SMTP exception"
+    },
+    {
+      "job": "java-maven-freestyle",
+      "build": 5,
+      "notification": "failure",
+      "sendingEmailLogged": true,
+      "smtpAuthenticationError": false,
+      "result": "sent without SMTP exception"
+    },
+    {
+      "job": "java-maven-freestyle",
+      "build": 6,
+      "notification": "back-to-normal",
+      "sendingEmailLogged": true,
+      "smtpAuthenticationError": false,
+      "result": "sent without SMTP exception"
+    }
+  ]
+}

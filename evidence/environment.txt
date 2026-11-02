@@ -1,0 +1,62 @@
+Captured on 2026-11-02T22:29:11.893721+05:30
+
+$ java -version
+openjdk version "21.0.10" 2026-01-20
+OpenJDK Runtime Environment (build 21.0.10+7-Ubuntu-124.04)
+OpenJDK 64-Bit Server VM (build 21.0.10+7-Ubuntu-124.04, mixed mode, sharing)
+
+
+$ javac -version
+javac 21.0.10
+
+
+$ git --version
+git version 2.43.0
+
+
+$ .lab/tools/apache-maven-3.9.16/bin/mvn --version
+Apache Maven 3.9.16 (2bdd9fddda4b155ebf8000e807eb73fd829a51d5)
+Maven home: /home/mirza/jenkins-assignment/.lab/tools/apache-maven-3.9.16
+Java version: 21.0.10, vendor: Ubuntu, runtime: /usr/lib/jvm/java-21-openjdk-amd64
+Default locale: en, platform encoding: UTF-8
+OS name: "linux", version: "6.17.0-14-generic", arch: "amd64", family: "unix"
+
+
+$ lsb_release -a
+Distributor ID:	Ubuntu
+Description:	Ubuntu 24.04.4 LTS
+Release:	24.04
+Codename:	noble
+
+
+$ uname -r
+6.17.0-14-generic
+
+
+$ df -h /
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p6   28G   24G  2.8G  90% /
+
+
+$ systemctl --user status jenkins-assignment --no-pager
+● jenkins-assignment.service - /usr/bin/java -Xms128m -Xmx768m -Djava.awt.headless=true -Djenkins.install.runSetupWizard=false -jar /home/mirza/jenkins-assignment/.lab/tools/jenkins.war --httpListenAddress=127.0.0.1 --httpPort=8080 --webroot=/home/mirza/jenkins-assignment/.lab/war
+     Loaded: loaded (/run/user/1000/systemd/transient/jenkins-assignment.service; transient)
+  Transient: yes
+     Active: active (running) since Mon 2026-11-02 22:23:09 IST; 6min ago
+   Main PID: 14879 (java)
+      Tasks: 52 (limit: 9162)
+     Memory: 545.2M (peak: 763.3M)
+        CPU: 1min 27.656s
+     CGroup: /user.slice/user-1000.slice/user@1000.service/app.slice/jenkins-assignment.service
+             └─14879 /usr/bin/java -Xms128m -Xmx768m -Djava.awt.headless=true -Djenkins.install.runSetupWizard=false -jar /home/mirza/jenkins-assignment/.lab/tools/jenkins.war --httpListenAddress=127.0.0.1 --httpPort=8080 --webroot=/home/mirza/jenkins-assignment/.lab/war
+
+Nov 02 22:28:31 mirza java[14879]:         at Jenkins Main ClassLoader//org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.runTask(AdaptiveExecutionStrategy.java:492)
+Nov 02 22:28:31 mirza java[14879]:         at Jenkins Main ClassLoader//org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.epcRunTask(AdaptiveExecutionStrategy.java:428)
+Nov 02 22:28:31 mirza java[14879]:         at Jenkins Main ClassLoader//org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.consumeTask(AdaptiveExecutionStrategy.java:401)
+Nov 02 22:28:31 mirza java[14879]:         at Jenkins Main ClassLoader//org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce(AdaptiveExecutionStrategy.java:255)
+Nov 02 22:28:31 mirza java[14879]:         at Jenkins Main ClassLoader//org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.run(AdaptiveExecutionStrategy.java:204)
+Nov 02 22:28:31 mirza java[14879]:         at Jenkins Main ClassLoader//org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:317)
+Nov 02 22:28:31 mirza java[14879]:         at Jenkins Main ClassLoader//org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:1009)
+Nov 02 22:28:31 mirza java[14879]:         at Jenkins Main ClassLoader//org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob(QueuedThreadPool.java:1240)
+Nov 02 22:28:31 mirza java[14879]:         at Jenkins Main ClassLoader//org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1194)
+Nov 02 22:28:31 mirza java[14879]:         at java.base/java.lang.Thread.run(Thread.java:1583)

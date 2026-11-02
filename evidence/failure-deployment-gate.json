@@ -1,0 +1,12 @@
+{
+  "captured": "2026-11-02T22:34:43.279714+05:30",
+  "failedBuild": 3,
+  "result": "FAILURE",
+  "testCount": 2,
+  "failCount": 1,
+  "archivedArtifacts": [],
+  "downstreamBuildBeforeFailure": 4,
+  "downstreamBuildAfterFailure": 4,
+  "downstreamQueueItems": [],
+  "failedCommit": "b26dbb67017276f64060bba0ab02992b0e073f5b"
+}

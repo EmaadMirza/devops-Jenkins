@@ -1,0 +1,12 @@
+Started by user lab-admin
+Running as SYSTEM
+Building in workspace /home/mirza/jenkins-assignment/.lab/jenkins-home/workspace/deploy-job
+[deploy-job] $ /bin/sh /tmp/jenkins8062824262424175045.sh
+==============================================
+ Deploying version 1.0 to staging (SIMULATION)
+==============================================
+Simulating copying application to staging server...
+Deployment to staging completed (simulation; no remote server changed)
+Running simulated smoke tests on staging...
+Smoke tests passed (simulation)
+Finished: SUCCESS

@@ -1,0 +1,12 @@
+Started by user lab-admin
+Running as SYSTEM
+Building in workspace /home/mirza/jenkins-assignment/.lab/jenkins-home/workspace/hello-world-job
+[hello-world-job] $ /bin/sh /tmp/jenkins6513903429382956386.sh
+Hello from Jenkins!
+Job Name     : hello-world-job
+Build Number : 1
+Build URL    : http://localhost:8080/job/hello-world-job/1/
+Workspace    : /home/mirza/jenkins-assignment/.lab/jenkins-home/workspace/hello-world-job
+Running as   : mirza
+Mon Nov  2 10:25:32 PM IST 2026
+Finished: SUCCESS
