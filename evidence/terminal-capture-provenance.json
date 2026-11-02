@@ -1,0 +1,200 @@
+[
+  {
+    "screenshot": "evidence/screenshots/16-terminal-environment-window.png",
+    "nativeCapture": "Ubuntu GNOME screenshot portal",
+    "originalDimensions": [
+      5431,
+      1615
+    ],
+    "cropPixels": [
+      2560,
+      0,
+      5431,
+      1615
+    ],
+    "publishedDimensions": [
+      2871,
+      1615
+    ],
+    "operation": "lossless pixel crop only; no text rendering, compositing, or image generation",
+    "rawScreenshotSha256": "26d1f03ca10133686c4f2a2c0d30c0e46b455c3b121c7fac51515c8d4dfde209",
+    "publishedSha256": "96318cf51eb265e1e572f3a4bada7fe0a58ec79cc6d321853a11f00bd3fe14ee",
+    "rawScreenshotPublished": false
+  },
+  {
+    "screenshot": "evidence/screenshots/17-terminal-hello-world-window.png",
+    "nativeCapture": "Ubuntu GNOME screenshot portal",
+    "originalDimensions": [
+      5431,
+      1615
+    ],
+    "cropPixels": [
+      2560,
+      0,
+      5431,
+      1615
+    ],
+    "publishedDimensions": [
+      2871,
+      1615
+    ],
+    "operation": "lossless pixel crop only; no text rendering, compositing, or image generation",
+    "rawScreenshotSha256": "c4a2aade6d5dfaa511cd6e56c8e4c55b9fb159aa5e156deabba407b8ca7f8da8",
+    "publishedSha256": "2af5fbae33400acc877eb007a2e4ba6a577419d7d37b3fb4ee50c28fc0675ecb",
+    "rawScreenshotPublished": false
+  },
+  {
+    "screenshot": "evidence/screenshots/18-terminal-fresh-maven-window.png",
+    "nativeCapture": "Ubuntu GNOME screenshot portal",
+    "originalDimensions": [
+      5431,
+      1615
+    ],
+    "cropPixels": [
+      2560,
+      0,
+      5431,
+      1615
+    ],
+    "publishedDimensions": [
+      2871,
+      1615
+    ],
+    "operation": "lossless pixel crop only; no text rendering, compositing, or image generation",
+    "rawScreenshotSha256": "8ea1f641e42c07b1f29b5e0b8a58e3b1fe4eb645c307e3cbcc60b6ffe7ca45ab",
+    "publishedSha256": "15f4f14b04a258b636ef1de69239355b540dd4bf66e5c90c0af2ea01118ca288",
+    "rawScreenshotPublished": false
+  },
+  {
+    "screenshot": "evidence/screenshots/19-terminal-generated-jar-window.png",
+    "nativeCapture": "Ubuntu GNOME screenshot portal",
+    "originalDimensions": [
+      5431,
+      1615
+    ],
+    "cropPixels": [
+      2560,
+      0,
+      5431,
+      1615
+    ],
+    "publishedDimensions": [
+      2871,
+      1615
+    ],
+    "operation": "lossless pixel crop only; no text rendering, compositing, or image generation",
+    "rawScreenshotSha256": "c9343e1cfc7adc25783413cfdc212eba0c769bc8c31067bd403f4daf41b5699d",
+    "publishedSha256": "246d723d9450549db204d565c2240b95a3ffe4eba5d6291e45889faa07a0f4aa",
+    "rawScreenshotPublished": false
+  },
+  {
+    "screenshot": "evidence/screenshots/20-terminal-automatic-scm-window.png",
+    "nativeCapture": "Ubuntu GNOME screenshot portal",
+    "originalDimensions": [
+      5431,
+      1615
+    ],
+    "cropPixels": [
+      2560,
+      0,
+      5431,
+      1615
+    ],
+    "publishedDimensions": [
+      2871,
+      1615
+    ],
+    "operation": "lossless pixel crop only; no text rendering, compositing, or image generation",
+    "rawScreenshotSha256": "a76df405dad5f107342ad8e7addb0da5ca6de970be9c3a79be70953daf1dba3b",
+    "publishedSha256": "e69807f0e6a48189002170faf2fe2eaf04215f253b5a1a6028cbee5dafd60ca4",
+    "rawScreenshotPublished": false
+  },
+  {
+    "screenshot": "evidence/screenshots/21-terminal-failed-build-window.png",
+    "nativeCapture": "Ubuntu GNOME screenshot portal",
+    "originalDimensions": [
+      5431,
+      1615
+    ],
+    "cropPixels": [
+      2560,
+      0,
+      5431,
+      1615
+    ],
+    "publishedDimensions": [
+      2871,
+      1615
+    ],
+    "operation": "lossless pixel crop only; no text rendering, compositing, or image generation",
+    "rawScreenshotSha256": "53f1817121b29af639a21852c9459614a875bcdacab6e4c4dd9854037dcb21a5",
+    "publishedSha256": "d975f9e47a3435eac8b58f59fa05680953d776718b3d3055780ba7972f95840c",
+    "rawScreenshotPublished": false
+  },
+  {
+    "screenshot": "evidence/screenshots/22-terminal-recovery-window.png",
+    "nativeCapture": "Ubuntu GNOME screenshot portal",
+    "originalDimensions": [
+      5431,
+      1615
+    ],
+    "cropPixels": [
+      2560,
+      0,
+      5431,
+      1615
+    ],
+    "publishedDimensions": [
+      2871,
+      1615
+    ],
+    "operation": "lossless pixel crop only; no text rendering, compositing, or image generation",
+    "rawScreenshotSha256": "edd8ea829ecfaac017da8744d6c2e101bf6eac82882bd6aed2d7b16a548d181c",
+    "publishedSha256": "657695181849ba9e0ce05c9f99452495e88ae87bc061f2d03f891798c522517a",
+    "rawScreenshotPublished": false
+  },
+  {
+    "screenshot": "evidence/screenshots/23-terminal-upstream-deploy-window.png",
+    "nativeCapture": "Ubuntu GNOME screenshot portal",
+    "originalDimensions": [
+      5431,
+      1615
+    ],
+    "cropPixels": [
+      2560,
+      0,
+      5431,
+      1615
+    ],
+    "publishedDimensions": [
+      2871,
+      1615
+    ],
+    "operation": "lossless pixel crop only; no text rendering, compositing, or image generation",
+    "rawScreenshotSha256": "f13a53b09095ba8f9f6ec58aaaf365faa46a95dc64dff96bd1773d9f2450b878",
+    "publishedSha256": "e9402d5696db13ff221bc466968b9e0655c9eb48c9fcd43229a0ce1d2a07f8d2",
+    "rawScreenshotPublished": false
+  },
+  {
+    "screenshot": "evidence/screenshots/24-terminal-failure-gate-window.png",
+    "nativeCapture": "Ubuntu GNOME screenshot portal",
+    "originalDimensions": [
+      5431,
+      1615
+    ],
+    "cropPixels": [
+      2560,
+      0,
+      5431,
+      1615
+    ],
+    "publishedDimensions": [
+      2871,
+      1615
+    ],
+    "operation": "lossless pixel crop only; no text rendering, compositing, or image generation",
+    "rawScreenshotSha256": "eb382dff4a306c4ad00113400bf8415d2c83fa42e4cd7efe02151e96264b4e77",
+    "publishedSha256": "4878c7249112d49b891c4b89949ca644b65c7fc5d331afc32b14255501d4d3fc",
+    "rawScreenshotPublished": false
+  }
+]

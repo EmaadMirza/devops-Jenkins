@@ -1,0 +1,87 @@
+{
+  "captured": "2026-11-02T22:56:12+05:30",
+  "jenkinsVersion": "2.580.2",
+  "useSecurity": true,
+  "executors": 1,
+  "jdks": [
+    {
+      "name": "JDK-21",
+      "home": "/usr/lib/jvm/java-21-openjdk-amd64"
+    }
+  ],
+  "maven": [
+    {
+      "name": "Maven-3.9",
+      "home": "/home/mirza/jenkins-assignment/.lab/tools/apache-maven-3.9.16"
+    }
+  ],
+  "requiredPlugins": [
+    {
+      "name": "git",
+      "version": "5.11.0",
+      "active": true
+    },
+    {
+      "name": "junit",
+      "version": "1456.vdb_4425ca_0d4d",
+      "active": true
+    },
+    {
+      "name": "mailer",
+      "version": "534.v1b_36f5864073",
+      "active": true
+    },
+    {
+      "name": "ws-cleanup",
+      "version": "0.49",
+      "active": true
+    },
+    {
+      "name": "timestamper",
+      "version": "1.30",
+      "active": true
+    },
+    {
+      "name": "build-timeout",
+      "version": "1.41",
+      "active": true
+    },
+    {
+      "name": "credentials",
+      "version": "1514.vb_01eb_014e7d4",
+      "active": true
+    }
+  ],
+  "ci": {
+    "name": "java-maven-freestyle",
+    "scm": "hudson.plugins.git.GitSCM",
+    "branches": [
+      "*/main"
+    ],
+    "triggers": [
+      {
+        "type": "hudson.triggers.SCMTrigger",
+        "schedule": "H/5 * * * *"
+      }
+    ],
+    "wrappers": [
+      "hudson.plugins.ws_cleanup.PreBuildCleanup",
+      "hudson.plugins.timestamper.TimestamperBuildWrapper",
+      "hudson.plugins.build_timeout.BuildTimeoutWrapper"
+    ],
+    "publishers": [
+      "hudson.tasks.junit.JUnitResultArchiver",
+      "hudson.tasks.ArtifactArchiver",
+      "hudson.tasks.BuildTrigger",
+      "hudson.tasks.Mailer"
+    ],
+    "buildRetention": 10
+  },
+  "smtp": {
+    "host": "smtp.gmail.com",
+    "port": "465",
+    "ssl": true,
+    "authenticationConfigured": true
+  },
+  "allPluginsActive": true
+}

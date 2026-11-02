@@ -40,5 +40,12 @@
       "smtpAuthenticationError": false,
       "result": "sent without SMTP exception"
     }
-  ]
+  ],
+  "recipientConfirmation": {
+    "confirmed": true,
+    "source": "User follow-up instruction",
+    "statement": "I confirm that the notification emails arrived.",
+    "recordedDate": "2026-11-02",
+    "independentMailboxInspectionByAssistant": false
+  }
 }

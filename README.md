@@ -27,6 +27,8 @@ The calculator has addition and subtraction operations. Exactly two JUnit 5 test
 
 See [the evidence index](evidence/README.md), [raw build logs](evidence/logs/), and [Ubuntu environment capture](evidence/environment.txt). Results are from Jenkins execution, not sample output. The index records build numbers, commit IDs, trigger causes, artifact availability, and notification status.
 
+The [nine real Ubuntu terminal screenshots](evidence/README.md#ubuntu-terminal-evidence) cover environment/service status, Hello World, a fresh Maven build, JAR execution, automatic SCM triggering, failure, recovery, upstream deployment, and the failed-build deployment gate. They are saved in [evidence/screenshots/](evidence/screenshots/) alongside the 15 preserved Jenkins website screenshots. The [PDF practical-step audit](evidence/pdf-practical-audit.md) distinguishes completed exercises from the installation and credential steps adapted for this minimal setup.
+
 ## Minimal installation and storage
 
 To avoid the system package-manager lock and keep disk use small, this lab uses the official Jenkins WAR and Maven binary archive under ignored `.lab/`. It installs no Docker, extra JDK, database, or pipeline plugin bundle. SHA-256/SHA-512 checksums verify the tools, and all 47 required plugins/dependencies are pinned with SHA-256 checksums in [plugins-lock.json](jenkins/plugins-lock.json). The six requested plugin roots are Git, JUnit, Mailer, Workspace Cleanup, Timestamper, and Build Timeout.
@@ -101,16 +103,22 @@ python3 scripts/configure-email.py
 
 The helper asks for the address and hidden App Password, sends them only to the local Jenkins server, configures SMTP SSL on `smtp.gmail.com:465`, and sends a real configuration test. It saves the credential encrypted inside ignored Jenkins home. It never places the password in a command argument, repository file, screenshot, or build console. The exported job template has an empty recipient; configure your own locally. “Send to individuals” is disabled so only the configured recipient receives lab messages.
 
-Successful SMTP submission proves acceptance by the outgoing server; inbox delivery requires recipient confirmation. See the evidence index for the status actually verified in this run.
+The recorded Jenkins logs prove SMTP submission without an SMTP exception. The user subsequently confirmed that the notification emails arrived. This recipient confirmation is recorded separately from the SMTP evidence; no inbox screenshot or independent mailbox inspection is claimed. See [notification-verification.json](evidence/notification-verification.json).
 
 ## Evidence and secrets
 
-Screenshots are genuine Jenkins pages captured by the installed Firefox running on Ubuntu in headless mode. They are browser-page screenshots, not full-desktop captures or fabricated terminal images. Reproduce one with:
+The original 15 website screenshots are genuine Jenkins pages captured by the installed Firefox running on Ubuntu in headless mode. Those files remain unchanged. Reproduce a website capture with:
 
 ```bash
 sh scripts/capture-evidence.sh example.png job/java-maven-freestyle/1/
 ```
 
-The capture uses a dedicated lab Firefox profile. Screenshots avoid credential/settings pages. `.lab/`, Maven `target/`, keys, environment files, and Python bytecode are excluded from Git. The public evidence includes selected build metadata, test results, logs with the notification address redacted, and actual archived JARs with SHA-256 checksums. [Final disk output](evidence/final-disk-space.txt) records approximately 2.7 GiB available when the evidence was finalized.
+The capture uses a dedicated lab Firefox profile. Screenshots avoid credential/settings pages. `.lab/`, Maven `target/`, keys, environment files, and Python bytecode are excluded from Git. The public evidence includes selected build metadata, test results, logs with the notification address redacted, and actual archived JARs with SHA-256 checksums. [The original lab's final disk output](evidence/final-disk-space.txt) records approximately 2.7 GiB available at that time; the terminal follow-up's disk output is recorded separately in [terminal-session.json](evidence/terminal-session.json).
+
+The new terminal screenshots were captured from a real maximized GNOME Terminal through Ubuntu's native screenshot portal. A lossless pixel crop retains only the evidence terminal and excludes the Codex chat on the other monitor. No text, output, or terminal image was rendered, generated, composited, or replaced. Full-desktop originals are retained privately under ignored `.lab/terminal-originals/`; only the inspected terminal crops are published. [Capture provenance](evidence/terminal-capture-provenance.json) records original hashes and crop bounds.
+
+The fresh `clean package` ran in the displayed terminal session on 2026-11-02 at 22:53 IST: exactly two tests passed and the generated JAR printed `Sum of 2 and 3 is 5`. Historical Jenkins views explicitly say **saved output from earlier run**, identify the job/build number, and read the existing log files. [The fresh transcript](evidence/terminal-fresh-maven-20261102T225321.txt) is separate from those historical logs.
+
+To display the same prepared views in a real Ubuntu terminal, run `python3 scripts/terminal-evidence.py`. The optional `--capture` flag requests real compositor screenshots and may require local consent. Review the monitor/window selection before publishing; a multi-monitor full-desktop image must not be published with unrelated windows. The helper does not fabricate screenshots.
 
 References: [Jenkins WAR installation](https://www.jenkins.io/doc/book/installing/war-file/), [Maven installation](https://maven.apache.org/install.html), [Google App Passwords](https://support.google.com/accounts/answer/185833).

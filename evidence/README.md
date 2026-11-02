@@ -1,6 +1,26 @@
 # Execution evidence
 
-All logs, JSON test/build results, and images here came from the actual local Ubuntu Jenkins instance. Email addresses in saved console logs are replaced with `[configured-recipient]`; passwords and Jenkins authentication files are excluded entirely. Screenshots are unedited Firefox captures of real Jenkins pages rendered on Ubuntu, not mockups or full-desktop photographs.
+All logs, JSON test/build results, and images here came from actual execution on Ubuntu. Email addresses in saved console logs are replaced with `[configured-recipient]`; passwords and Jenkins authentication files are excluded entirely. The original 15 Firefox/Jenkins website screenshots remain unchanged. The nine additional terminal screenshots are native desktop captures cropped to the real evidence terminal, with no rendered or substituted text.
+
+## Ubuntu terminal evidence
+
+All new images are in `evidence/screenshots/`, alongside the preserved website images. Open a screenshot at original size for full readability. The Codex chat and unrelated monitor are excluded from every published terminal crop.
+
+| Requirement | Screenshot and concise caption | Source/type |
+| --- | --- | --- |
+| Ubuntu, Java, Git, Maven, service | [16 — environment and active Jenkins service](screenshots/16-terminal-environment-window.png) | Live version/status commands; user systemd service identified explicitly |
+| Hello World | [17 — Hello World SUCCESS](screenshots/17-terminal-hello-world-window.png) | `hello-world-job #1`; saved output from earlier run |
+| Fresh Maven build | [18 — two tests pass and BUILD SUCCESS](screenshots/18-terminal-fresh-maven-window.png) | Fresh `clean package` executed in this terminal session; [complete stdout](terminal-fresh-maven-20261102T225321.txt) |
+| Generated JAR | [19 — JAR listed, hashed and executed](screenshots/19-terminal-generated-jar-window.png) | Live commands on that fresh build's JAR; prints `Sum of 2 and 3 is 5` |
+| Automatic build | [20 — poll finds GitHub change, build succeeds](screenshots/20-terminal-automatic-scm-window.png) | `java-maven-freestyle #2`; saved polling log and selected earlier build lines |
+| Deliberate failure | [21 — expected 6, actual 5, Jenkins FAILURE](screenshots/21-terminal-failed-build-window.png) | `java-maven-freestyle #5`; saved output from earlier run |
+| Recovery | [22 — two tests pass, archive and SUCCESS](screenshots/22-terminal-recovery-window.png) | `java-maven-freestyle #6`; saved output from earlier run |
+| Upstream deployment | [23 — successful upstream, dev/1.0 and smoke tests](screenshots/23-terminal-upstream-deploy-window.png) | `deploy-job #6`, upstream calculator #6; saved cause, parameters and console output |
+| Failure safety gate | [24 — failed build produces no deployment](screenshots/24-terminal-failure-gate-window.png) | Failed calculator #5; saved before/after downstream counts and deployment upstream-link cross-check |
+
+[Capture provenance](terminal-capture-provenance.json) records lossless crop coordinates and screenshot hashes. Full-desktop originals remain private and ignored. [Terminal session metadata](terminal-session.json) records the fresh execution time and the historical/live distinction. [PDF practical-step audit](pdf-practical-audit.md) checks all 44 numbered steps and identifies the exact-procedure differences honestly.
+
+Historical JSON snapshots remain unchanged, including their then-current notification-verification fields. The later recipient confirmation is recorded in [notification-verification.json](notification-verification.json), separately from any claim of independent mailbox inspection.
 
 ## Demonstrated runs
 
@@ -41,7 +61,7 @@ The first SMTP configuration attempt connected to Gmail but returned `535 5.7.8`
 
 Calculator #6 then passed both tests, archived its JAR, sent the recovery notification without an SMTP exception, and triggered successful deployment #6. [notification-verification.json](notification-verification.json) records the successful mail attempts and the earlier rejected attempt.
 
-The evidence proves SMTP submission from Jenkins; inbox receipt is not independently verified. No inbox screenshot is fabricated or included. The Gmail App Password and Jenkins admin password remain in ignored local runtime storage and are absent from this repository.
+The Jenkins logs record SMTP submission. In the follow-up request the user explicitly confirmed: **“I confirm that the notification emails arrived.”** This is recipient confirmation, separate from the recorded SMTP evidence; the assistant did not independently inspect the inbox. No inbox screenshot is fabricated or included. The Gmail App Password and Jenkins admin password remain in ignored local runtime storage and are absent from this repository.
 
 ## Artifacts and environment
 

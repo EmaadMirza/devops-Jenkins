@@ -1,0 +1,93 @@
+{
+  "started": "2026-11-02T22:53:21.792687+05:30",
+  "captures": [
+    {
+      "file": "evidence/screenshots/16-terminal-environment-window.png",
+      "page": 1,
+      "exists": true,
+      "publishedTerminalOnly": true
+    },
+    {
+      "file": "evidence/screenshots/17-terminal-hello-world-window.png",
+      "page": 2,
+      "exists": true,
+      "publishedTerminalOnly": true
+    },
+    {
+      "file": "evidence/screenshots/18-terminal-fresh-maven-window.png",
+      "page": 3,
+      "exists": true,
+      "publishedTerminalOnly": true
+    },
+    {
+      "file": "evidence/screenshots/19-terminal-generated-jar-window.png",
+      "page": 4,
+      "exists": true,
+      "publishedTerminalOnly": true
+    },
+    {
+      "file": "evidence/screenshots/20-terminal-automatic-scm-window.png",
+      "page": 5,
+      "exists": true,
+      "publishedTerminalOnly": true
+    },
+    {
+      "file": "evidence/screenshots/21-terminal-failed-build-window.png",
+      "page": 6,
+      "exists": true,
+      "publishedTerminalOnly": true
+    },
+    {
+      "file": "evidence/screenshots/22-terminal-recovery-window.png",
+      "page": 7,
+      "exists": true,
+      "publishedTerminalOnly": true
+    },
+    {
+      "file": "evidence/screenshots/23-terminal-upstream-deploy-window.png",
+      "page": 8,
+      "exists": true,
+      "publishedTerminalOnly": true
+    },
+    {
+      "file": "evidence/screenshots/24-terminal-failure-gate-window.png",
+      "page": 9,
+      "exists": true,
+      "publishedTerminalOnly": true
+    }
+  ],
+  "freshMaven": {
+    "command": [
+      ".lab/tools/apache-maven-3.9.16/bin/mvn",
+      "-B",
+      "-ntp",
+      "-Dmaven.repo.local=/home/mirza/jenkins-assignment/.lab/m2",
+      "clean",
+      "package"
+    ],
+    "log": "evidence/terminal-fresh-maven-20261102T225321.txt",
+    "finished": "2026-11-02T22:53:35.200269+05:30",
+    "tests": 2,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "captureMethod": "Native Ubuntu GNOME screenshot portal; real GNOME Terminal; lossless pixel crop to evidence monitor",
+  "historicalPages": [
+    2,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "livePages": [
+    1,
+    3,
+    4
+  ],
+  "allPublishedScreenshotsVisuallyReviewed": true,
+  "codexChatIncludedInPublishedScreenshots": false,
+  "passwordsOrTokensVisible": false,
+  "diskSpaceAfterTerminalFollowUp": "Filesystem      Size  Used Avail Use% Mounted on\n/dev/nvme0n1p6   28G   24G  2.6G  91% /\n"
+}
